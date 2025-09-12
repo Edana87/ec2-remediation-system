@@ -1,2 +1,2 @@
 # ec2-remediation-system
-EC2 Monitoring and Remediation System - ServiceNow Implementation Case Study Project
+A ServiceNow-driven incident response solution designed to support Netflix’s DevOps teams in rapidly addressing AWS EC2 outages. It streamlines the process by auto-generating incidents, surfacing AI-recommended remediation actions, pushing real-time alerts via Slack, and enabling engineers to initiate fixes—all aimed at minimizing downtime and safeguarding the streaming experience.
