@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-09-12 23:31:00">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<application_name>EC2 Monitoring and Remediation</application_name>
+<application_scope>x_snc_ec2_monito_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>EC2 Revised Update Set</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>63fd050089cc32107f444c0145508bdb</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>f239118c890072107f444c0145508bde</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>http_connection_a8680880894432107f444c0145508b11</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="http_connection"><http_connection action="INSERT_OR_UPDATE"><active>true</active><app_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</app_scope><application display_value="ALL">35aa573fd7802200bdbaee5b5e610375</application><base_path>/api/v1/queue/start</base_path><capabilities/><connection_alias display_value="x_snc_ec2_monito_0.AWS_Integration_Server_C_C_Alias">e9540c88890432107f444c0145508b48</connection_alias><connection_retries>0</connection_retries><connection_timeout/><connection_url>https://codon-staging.emaginelc.com/api/v1/queue/start</connection_url><credential display_value="AWS Integration Server Credentials">953884c0894432107f444c0145508b90</credential><extended_attributes/><host>codon-staging.emaginelc.com</host><is_internal>false</is_internal><mid_cluster/><mid_protocol_profile/><mid_selection>auto_select</mid_selection><mid_server/><mutual_auth>false</mutual_auth><name>AWS Integration Server Connection</name><order>100</order><port/><protocol>https</protocol><protocol_profile/><sys_class_name>http_connection</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:41:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a8680880894432107f444c0145508b11</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 22:07:46</sys_updated_on><url_builder>true</url_builder><use_mid>false</use_mid></http_connection><sys_variable_value action="delete_multiple" query="document_key=a8680880894432107f444c0145508b11"/></record_update>]]></payload>
+<payload_hash>826492444</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>3239118c890072107f444c0145508bdf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1994020c6e20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>AWS Integration Server Connection</target_name>
+<type>HTTP(s) Connection</type>
+<update_domain>global</update_domain>
+<update_guid>b540dd089bcc32109e6ea3c11a02d8b4</update_guid>
+<update_guid_history>b540dd089bcc32109e6ea3c11a02d8b4:826492444</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_69f14804890432107f444c0145508bfd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_snc_ec2_monito_0_remediation_log</description><local_or_existing>Local</local_or_existing><name>x_snc_ec2_monito_0_remediation_log</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:09:43</sys_created_on><sys_id>69f14804890432107f444c0145508bfd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ec2_monito_0_remediation_log</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_security_acl_69f14804890432107f444c0145508bfd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:09:43</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1479758471</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>3239118c890072107f444c0145508be2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199403003e30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>x_snc_ec2_monito_0_remediation_log</table>
+<target_name>x_snc_ec2_monito_0_remediation_log</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>35145180230072109e43a4d4c9fa90c9</update_guid>
+<update_guid_history>35145180230072109e43a4d4c9fa90c9:1479758471,61f18804d9043210a225afd952fe6657:1479758471</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_af8a0c08894432107f444c0145508bd3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_snc_ec2_monito_0.EC2RemediationHelper&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;EC2RemediationHelper&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var EC2RemediationHelper = Class.create();
+EC2RemediationHelper.prototype = Object.extendsObject
+(global.AbstractAjaxProcessor, 
+{
+ triggerRemediation: function () {
+      var ec2SysId = this.getParameter('sysparm_ec2_sys_id');
+
+      try {
+        gs.info('EC2RemediationHelper: ec2SysId=' + ec2SysId);
+
+        if (!ec2SysId) {
+          return JSON.stringify({
+            success: false,
+            message: 'Missing required parameter: sysparm_ec2_sys_id',
+          });
+        }
+
+        // Look up the EC2 instance record
+        var ec2Gr = new GlideRecord('x_snc_ec2_monito_0_ec2_instance');
+        if (!ec2Gr.get(ec2SysId)) {
+          return JSON.stringify({
+            success: false,
+            message: 'EC2 Instance record not found',
+          });
+        }
+
+        var instanceId = ec2Gr.getValue('instance_id');
+        gs.info('EC2RemediationHelper: Found instanceId=' + instanceId);
+
+        // Get credentials from connection store
+        var aliasGr = new GlideRecord('sys_alias');
+        aliasGr.addQuery('name', 'AWS Integration Server C C Alias');
+        aliasGr.query();
+        aliasGr.next();
+        var aliasSysId = aliasGr.getUniqueValue();
+
+        var connectionInfo =
+          new sn_cc.ConnectionInfoProvider().getConnectionInfoByDomain(
+            aliasSysId,
+            'global'
+          );
+        var username = connectionInfo.getCredentialAttribute('user_name');
+        var password = connectionInfo.getCredentialAttribute('password');
+        var connectionUrl = connectionInfo.getAttribute('connection_url');
+
+        // Make API call
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint(connectionUrl);
+        request.setHttpMethod('POST');
+        request.setBasicAuth(username, password);
+        request.setRequestHeader('Content-Type', 'application/json');
+        request.setRequestHeader('Accept', 'application/json');
+
+        var requestBody = JSON.stringify({instance_id: instanceId});
+        request.setRequestBody(requestBody);
+
+        var startTime = new Date().getTime();
+        var response = request.execute();
+        var endTime = new Date().getTime();
+        var responseTime = endTime - startTime;
+
+        var httpStatusCode = response.getStatusCode();
+        var responseBody = response.getBody();
+        var errorMessage = response.getErrorMessage();
+        var isSuccess = httpStatusCode &gt;= 200 &amp;&amp; httpStatusCode &lt; 300;
+
+        gs.info(
+          'EC2RemediationHelper: API Response - Status: ' +
+            httpStatusCode +
+            ', Body: ' +
+            responseBody
+        );
+
+        // error message with details
+        var fullErrorMessage = null;
+        if (!isSuccess) {
+          fullErrorMessage = 'API call failed - HTTP ' + httpStatusCode;
+          if (errorMessage) {
+            fullErrorMessage += '\nError: ' + errorMessage;
+          }
+          if (responseBody) {
+            fullErrorMessage += '\nResponse: ' + responseBody;
+          }
+        }
+
+        // Create remediation log entry
+        var logGr = new GlideRecord('x_snc_ec2_monito_0_remediation_log');
+        logGr.initialize();
+        logGr.setValue('ec2_instance', ec2SysId);
+        logGr.setValue('attempted_status', 'On');
+        logGr.setValue('timestamp', new GlideDateTime());
+        logGr.setValue('request_payload', requestBody);
+        logGr.setValue('success', isSuccess);
+        logGr.setValue('response_payload', responseBody);
+        logGr.setValue('http_status_code', httpStatusCode);
+        logGr.setValue('response_time_ms', responseTime);
+
+        if (fullErrorMessage) {
+          logGr.setValue('error_message', fullErrorMessage);
+        }
+
+        var logId = logGr.insert();
+        gs.info('Created log entry: ' + logId);
+
+        return JSON.stringify({
+          success: isSuccess,
+          message: isSuccess
+            ? 'Instance start request sent successfully!'
+            : fullErrorMessage,
+          log_id: logId,
+          instance_id: instanceId,
+          http_status: httpStatusCode,
+          response_time_ms: responseTime,
+        });
+      } catch (e) {
+        var errorMsg = 'Exception in triggerRemediation: ' + e.message;
+        var stackTrace = e.stack || 'Stack trace not available';
+
+        gs.error('EC2RemediationHelper error: ' + errorMsg);
+        gs.error('Stack trace: ' + stackTrace);
+
+        // Log error with full stack trace
+        var errorLogGr = new GlideRecord('x_snc_ec2_monito_0_remediation_log');
+        errorLogGr.initialize();
+        errorLogGr.setValue('ec2_instance', ec2SysId || 'unknown');
+        errorLogGr.setValue('attempted_status', 'On');
+        errorLogGr.setValue('timestamp', new GlideDateTime());
+        errorLogGr.setValue('success', false);
+        errorLogGr.setValue(
+          'response_payload',
+          'Exception: ' + errorMsg + '\n\nStack Trace:\n' + stackTrace
+        );
+        errorLogGr.setValue(
+          'error_message',
+          errorMsg + '\n\nStack Trace:\n' + stackTrace
+        );
+        errorLogGr.setValue('http_status_code', 0);
+        errorLogGr.setValue('response_time_ms', 0);
+        errorLogGr.insert();
+
+        return JSON.stringify({
+          success: false,
+          message: errorMsg,
+          stack_trace: stackTrace,
+        });
+      }
+    },
+
+    type: 'EC2RemediationHelper'
+}
+);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 17:57:48&lt;/sys_created_on&gt;&lt;sys_id&gt;af8a0c08894432107f444c0145508bd3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;EC2RemediationHelper&lt;/sys_name&gt;&lt;sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_af8a0c08894432107f444c0145508bd3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 17:57:48&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1799286459</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>3639118c890072107f444c0145508be1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199402e37890000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>EC2RemediationHelper</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>49a39dcca0cc3210d4cef15571d52f4b</update_guid>
+<update_guid_history>49a39dcca0cc3210d4cef15571d52f4b:-1799286459,0efc808c1644321031d31634dd79f80c:-1799286459</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_alias_e9540c88890432107f444c0145508b48</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><id>x_snc_ec2_monito_0.AWS_Integration_Server_C_C_Alias</id><is_internal>false</is_internal><multiple_connections>false</multiple_connections><name>AWS Integration Server C C Alias</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:20:49</sys_created_on><sys_id>e9540c88890432107f444c0145508b48</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ec2_monito_0.AWS_Integration_Server_C_C_Alias</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_alias_e9540c88890432107f444c0145508b48</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:20:49</sys_updated_on><type>connection</type></sys_alias></record_update>]]></payload>
+<payload_hash>775721570</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>3a39118c890072107f444c0145508be0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199402054060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>x_snc_ec2_monito_0.AWS_Integration_Server_C_C_Alias</target_name>
+<type>Connection &amp; Credential Aliases</type>
+<update_domain>global</update_domain>
+<update_guid>f620910851cc3210b8f5a750361d1440</update_guid>
+<update_guid_history>f620910851cc3210b8f5a750361d1440:775721570,d4848008dc043210d9c115f676539f1c:775721570</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_ec2_monito_0_remediation_log_9c8cc10089cc32107f444c0145508bc1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ec2_monito_0_remediation_log"><x_snc_ec2_monito_0_remediation_log action="INSERT_OR_UPDATE"><attempted_status>On</attempted_status><ec2_instance display_value="Created 2025-09-12 17:06:11">b9218880890432107f444c0145508b6e</ec2_instance><error_message/><http_status_code>201</http_status_code><request_payload>{"instance_id":"i-0ea0b0054603e01ab"}</request_payload><response_payload>{"queued":true,"queue_id":1203,"status":"pending"}</response_payload><response_time/><success>true</success><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 22:35:24</sys_created_on><sys_id>9c8cc10089cc32107f444c0145508bc1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 22:35:24</sys_updated_on><timestamp>2025-09-12 22:35:24</timestamp></x_snc_ec2_monito_0_remediation_log></record_update>]]></payload>
+<payload_hash>841995166</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>3a39118c890072107f444c0145508be3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1994035620e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>9c8cc10089cc32107f444c0145508bc1</target_name>
+<type>Remediation Log</type>
+<update_domain>global</update_domain>
+<update_guid>2f65914493007210825dfceeb0eb1fb5</update_guid>
+<update_guid_history>2f65914493007210825dfceeb0eb1fb5:841995166</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>syslog_24878504898c32107f444c0145508bec</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="syslog"><syslog action="INSERT_OR_UPDATE"><context_map>{"_page_name":"api/now/processflow/action/action_types/dcfee7fd81032ad07f445b4606b637b8/test","_system_id":"kura-labs-jul-4728-0003.internal.cloudapp.net:labinstance001_443","_logged_in_user":"admin","_script_record":"dcfee7fd81032ad07f445b4606b637b8","_scope":"global","_user":"admin","_is_impersonating":"false","_txid":"8777c5c0898c","_session_id":"C7067B7389B322107F444C0145508B2D","_script_table":"sys_hub_action_type_definition"}</context_map><level>0</level><message>AI Search SUCCESS: Found 8 items using app: Service Portal Default Search Application</message><sequence>1993ffdafc40000001</sequence><source>*** Script</source><source_application_family display_value="">_app_family</source_application_family><source_package display_value="Global" source="global">global</source_package><sys_class_name>syslog</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-09-12 22:13:34</sys_created_on><sys_id>24878504898c32107f444c0145508bec</sys_id></syslog></record_update>]]></payload>
+<payload_hash>-1059071218</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>3e39118c890072107f444c0145508bdf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199403312200000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>24878504898c32107f444c0145508bec</target_name>
+<type>Log Entry</type>
+<update_domain>global</update_domain>
+<update_guid>66d45dc02c007210cbb1ebda4e530825</update_guid>
+<update_guid_history>66d45dc02c007210cbb1ebda4e530825:-1059071218</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_a5f14804890432107f444c0145508bd5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_snc_ec2_monito_0_remediation_log</description><local_or_existing>Local</local_or_existing><name>x_snc_ec2_monito_0_remediation_log</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:09:43</sys_created_on><sys_id>a5f14804890432107f444c0145508bd5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ec2_monito_0_remediation_log</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_security_acl_a5f14804890432107f444c0145508bd5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:09:43</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-680499881</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>3e39118c890072107f444c0145508be2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199403005400000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>x_snc_ec2_monito_0_remediation_log</table>
+<target_name>x_snc_ec2_monito_0_remediation_log</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>b5145180ba007210fd9fa24d6bef19cc</update_guid>
+<update_guid_history>b5145180ba007210fd9fa24d6bef19cc:-680499881,69f148046e0432103bf28754e7be48d8:-680499881</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_flow_2e8364cc890832107f444c0145508bd0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=11948000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;ec2_instance_remediation_flow&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"a3c11cd7-d6ad-4113-ba01-b3ccb261e466.slack_message","label":"2 - AI Search Custom➛Articles","reference_display":"Articles","type":"string","base_type":"string","usedInstances":{"ea730883-63c8-4911-a8b6-2f191384a0ad":["ah_message"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2dc0c791-58bf-4282-bc2a-e4395c4094cf"}},{"name":"Created or Updated_1.current.instance_name","label":"Trigger - Record Created or Updated➛EC2 Instance Record➛Instance Name","reference":"","reference_display":"Instance Name","type":"string","base_type":"string","parent_table_name":"x_snc_ec2_monito_0_ec2_instance","column_name":"instance_name","usedInstances":{"d8b104ae-10a3-4532-afb5-22b8256a2d86":["short_description"]}},{"name":"d8b104ae-10a3-4532-afb5-22b8256a2d86.record.knowledge","label":"1 - Create Record➛Incident Record➛Knowledge","reference":"","reference_display":"Knowledge","type":"boolean","base_type":"boolean","parent_table_name":"incident","column_name":"knowledge","usedInstances":{}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;d8ad6cc4898832107f444c0145508b6f&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;EC2 Instance Remediation Flow&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;0f5ccdcc898c32107f444c0145508b2d&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 19:36:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2e8364cc890832107f444c0145508bd0&lt;/sys_id&gt;&lt;sys_mod_count&gt;33&lt;/sys_mod_count&gt;&lt;sys_name&gt;EC2 Instance Remediation Flow&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_2e8364cc890832107f444c0145508bd0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:55:36&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2e8364cc890832107f444c0145508bd0"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2e8364cc890832107f444c0145508bd0"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="x_snc_ec2_monito_0_ec2_instance"&gt;instance_status=OFF&lt;item endquery="false" field="instance_status" goto="false" newquery="false" operator="=" or="false" value="OFF"/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;true&lt;/on_insert&gt;&lt;on_update&gt;true&lt;/on_update&gt;&lt;published_version/&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_on_extended&gt;false&lt;/run_on_extended&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 22:34:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0f5ccdcc898c32107f444c0145508b2d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:34:46&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_ec2_monito_0_ec2_instance&lt;/table&gt;&lt;trigger_definition/&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_trigger_runner_mapping action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;data&gt;{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}&lt;/data&gt;&lt;identifier&gt;2e8364cc890832107f444c0145508bd0&lt;/identifier&gt;&lt;runner&gt;FDTriggerRunner&lt;/runner&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 22:55:36&lt;/sys_created_on&gt;&lt;sys_id&gt;882151c889cc32107f444c0145508b3f&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:55:36&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;0f5ccdcc898c32107f444c0145508b2d&lt;/trigger&gt;&lt;/sys_trigger_runner_mapping&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=2e8364cc890832107f444c0145508bd0^sys_idNOT IN882151c889cc32107f444c0145508b3f"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=2e8364cc890832107f444c0145508bd0"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=2e8364cc890832107f444c0145508bd0^sys_idNOT INae8364cc890832107f444c0145508bd2"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;2e8364cc890832107f444c0145508bd0&lt;/id&gt;&lt;name&gt;EC2 Instance Remediation Flow&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 19:36:25&lt;/sys_created_on&gt;&lt;sys_id&gt;ae8364cc890832107f444c0145508bd2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 19:36:25&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ae8364cc890832107f444c0145508bd2"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=2e8364cc890832107f444c0145508bd0^sys_idNOT IN002c2c00898832107f444c0145508bda,082ce004898832107f444c0145508ba1,1c2ce004898832107f444c0145508ba4"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="EC2 Instance Remediation Flow"&gt;2e8364cc890832107f444c0145508bd0&lt;/model&gt;&lt;model_id&gt;2e8364cc890832107f444c0145508bd0&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_2e8364cc890832107f444c0145508bd0&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:13:56&lt;/sys_created_on&gt;&lt;sys_id&gt;002c2c00898832107f444c0145508bda&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 20:13:56&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=002c2c00898832107f444c0145508bda"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDCollection&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;global&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-13 23:19:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;f4f014150f023300ecf0cc52ff767eed&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model"&gt;e1fd8f403d0522107f4488addddbe23d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 05:06:11&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_collection&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="EC2 Instance Remediation Flow"&gt;2e8364cc890832107f444c0145508bd0&lt;/model&gt;&lt;model_id&gt;2e8364cc890832107f444c0145508bd0&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_2e8364cc890832107f444c0145508bd0&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:13:56&lt;/sys_created_on&gt;&lt;sys_id&gt;082ce004898832107f444c0145508ba1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 20:13:56&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=082ce004898832107f444c0145508ba1"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="EC2 Instance Remediation Flow"&gt;2e8364cc890832107f444c0145508bd0&lt;/model&gt;&lt;model_id&gt;2e8364cc890832107f444c0145508bd0&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_2e8364cc890832107f444c0145508bd0&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:13:56&lt;/sys_created_on&gt;&lt;sys_id&gt;1c2ce004898832107f444c0145508ba4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 20:13:56&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1c2ce004898832107f444c0145508ba4"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=2e8364cc890832107f444c0145508bd0"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=2e8364cc890832107f444c0145508bd0"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=2e8364cc890832107f444c0145508bd0^sys_idNOT IN4824a0cc890832107f444c0145508b62"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="EC2 Instance Remediation Flow"&gt;2e8364cc890832107f444c0145508bd0&lt;/flow&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 19:38:59&lt;/sys_created_on&gt;&lt;sys_id&gt;4824a0cc890832107f444c0145508b62&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:34:43&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/9VaW2/bNhT+K4KeNsAbdLGtOHvKnGQNkDaA43YPXSBQJGUTkylXpJS4Rf/7DnWxZV0cX5TOzUNikRTPdw6/8x3SzOdveoA8GuiX+hR5AdV7OuOSRhwF09WSQrNUzS5HC9W3QJwgGUYr/VJGMe3pfhQupnSxDJCEwT4KBDSGEaGRfmn29AQFMX1ciTsCM8H76TT5nHreDc8vruDYpdhyFyFnMnSN9IFxIRHHaiRhAmysPuUv3Iwt7W7Ti+csIBHl+uXnp56+RBGYkQrCt0oXUziwb1JzdGFg24Ifw7Au+qY3tD3TIjaiyIAJqzGp4JYNodk4TV8k5YSSdTxqUYsoIg88WJVGvAj2Fea8MFSvTwExplnM1o9uHoSsGc9DhunDUrKQZy0ZuqwzDOIF/5ChVuGjPooDWYQPWmIB89GlAsrlGof/OA+fJ4XBW8ZTn/LOIMQoWD8hKSPmxZIKFWafBRBwN4uICOMoRT+5GT9Mrt2/r6bjdzcTd3LzOJ3cjac31/r31C/3S6xmzBDmWNzMne/rNb9lNFDLJlbChfXr6QJHbCmvsGRJwbnvvQ2PxyEnLI1Kjcu46BLbXC6830Vmw2ilMy5ZLChdcNeFPzIW/8SGYZOH29uD2eoYDiFmG1uxV2Jr2fMGaLIhCGXvdvE2b2knbt8w/ifq5kJ0LHMXIaHB9WY6HTpnM+Ay48tYqhgVcXHDJY1UPOA9/dPV/fjd1Ye/bh7/yP/eTh7eF5+nD/DeM+JSuKBmiBC3FHVlAnx5LQWymNTz4PUMiGIOU7jr9aznQboA65W4ZwIc/wxZXEQ5nRL6/ft8yknMtRAWHn5pOI4gyFIr1NC/W6BZvjb+Iw0oliUS+R9F+ek9E4LxWQn12mgalZrNtTkgo1a4lNkWJxp/6lIE6kFPKsGs1LCDlcDEfcuwvaHhKB0w4aNvGo4xQD6xDcO7KClBHUwrSlmhRIeKcJgeiJSCwR6EqwY2h2yUc2Av8iTbzCtcV8TIZWfcDTSzI2iWglaRT/sg/VyTMWu+3ubkLtc63jEgkqj6SPaVQzVgD93zg/AZpPsIzfMQ/ncWhTEnVRFSc2qMa5sR2i95/H7tUP/8MKK7AWyPOCfl24S9IC7iqw40z7JN6gz7QwOkzlYqNxiNPIws33eGDjXNiuZtYDRiO2Ote4VjSRNJ23SvkS5JE8sOULwTANbU72CAp+teTsdG1cv6fg59e55T7gLUyA2UgtVkbhYwQou+bnO8ZjrZZPWpeY69ERkMHAc7cMKBPPf71ENm3xqgkTO0qV/J8xqUXTBlQ2Te8NyjzqnKfIsGfMy6zuv4/pZkFVRKVXoOr8gcdqrpOygzUqqKajG0VErCSPsQ8t/uNuO0RwrFLj3ydlWa90GhFlZ7WxheKOe1vQGY/hPat0yrPWVLVM7u0FQhSbLt66nCgiwLjUy7RVicYZOwbMC0wzzTrcSeeZG0ZljTnmJfmieN2dK6CTiCuBVylHcHO7YvXQXF7Dwo1tsFxT55y1RkYOtJ8RiwP1HhSvcQp1QvZZO6oV+W7OtQgw4NjGjM1/LvGuHg7600OacQ0gD2xmBQU9ZP1epy7ahDWTP4xwLJdtu1GgbNWr5tOr/yVKFCt2dcSmw8Im0lqu+07n3b61Sl+0yL1cG5kDSl1s6Kddi81Tkba1aJqNs82LMadep1c0k6zevGovSa16eXm10n9AYU519IFOhptgxHlI8wu9ouqTXu8rIl5uxLTF08R3yWXaQUhm4hzhThuZYN0bIhXRaA4BmthF6tREBalRf5187QABnCM/3qyjJNaLSq+aoatXhJVHH4wcXH2lF8intIISN4c7YqZV7hx4HfpXojyK6BgW3TtGs3yYPyTfI2ddsBtRQW69jCMmfpFWzJfL48ki1oKmPre1RtgSSeU9HTYA3TO4tU5VgkZDr6d73DQxUu3+3kmdlUd1pzJ2lLu1Yd35EOSTWRmoS7gdpV+pSle+fxaYf7ZifuW124bx/nfv/kypVHpLl05dHrtlwd8e8zenO9evoPsJmlEAImAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=2e8364cc890832107f444c0145508bd0^sys_idNOT IN7e5bec40898832107f444c0145508bc7,92252c80894832107f444c0145508b61,a834ec40894832107f444c0145508b29"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Post a Message"&gt;41ca0f433be0030057a4a2e334efc474&lt;/action_type&gt;&lt;action_type_parent display_value="Post a Message"&gt;d3b4e24b3ba0030057a4a2e334efc4e4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;41ca0f433be0030057a4a2e334efc474&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="EC2 Instance Remediation Flow"&gt;2e8364cc890832107f444c0145508bd0&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:10:34&lt;/sys_created_on&gt;&lt;sys_id&gt;7e5bec40898832107f444c0145508bc7&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:34:43&lt;/sys_updated_on&gt;&lt;ui_id&gt;ea730883-63c8-4911-a8b6-2f191384a0ad&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+1T227aQBD9lcrPYNbYXN9yUaqqCWnJpVKiyBqvx3iV9aXeNSRF/HvH2CalCQhVacQDjzu7Z+bMOWfv54bwjaHBfQ4scGzbQ8Zsxjo9cKCNtu1gwJ1e12gYMURILyF0Z+iFSfLo5pmk+hRkXlyEWqdq2GoVV8pUEvijyZOopTCbCo6qdc3aPcs5Hx13P7eO2eCkcz1iX7+dtuz+2WxwFPbvHr+fHPeUN7ZGp0d3/ph6+0KlEp5v/+MIHgrpZxgbw/uHhpFCRmtqzIzh/K8r/ZyiK8FDSUyudCbiCcF3Va8G/ii1+3QzPt+iaTGL6qqekmR+QYk1DHzSGPtIUwOQChtGBLEPOsmeV5UMwb+M5UshFLGmbkbx+EmJX9S6zxgrXgZI+3Esb1dHt9K9LPMwIXEvUy2SuKxo8GSF4YnMo3hU7lE4hgHkUteOUSVX1A/TgnVBo+IUXIXJbFwPPBPxcsHqUiYc5OoEmmTwco2qMAUlRtTIjSBNSRw3zZKpWIKJS2ROJB3MQCYzGqrEJDaBF8RNEgnMM6qfLsu3kIliiwtqQ+DFcnv3Z17MLfeoGLvl0vRA8Uyk+ojaTbEit2hU/4dtTUDfXvM6QqVggn/8nfkcbG5Z3O81/S74Tcey7KYHzGp6Nudeu2uh0+2Wia/hi8XrD/LPfd7jF+ygQQ28WCnwliob0m8d0r+n6Xesrc4Haz6TItny9BL/10F+p0juQKwG3rzQepPrhlC2D6Hc01D2O9u8H8Ca0TyEOEb5EZncgVcNPFmxeovphkTah0TuaSL9wTbnobPms+DU8wPiuAOpGvilpPSK44YgOocg7lkQH34DymrS6e8NAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="AI Search Custom"&gt;2e324300819fea147f445b4606b6379e&lt;/action_type&gt;&lt;action_type_parent display_value="AI Search Custom"&gt;dcfee7fd81032ad07f445b4606b637b8&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;2e324300819fea147f445b4606b6379e&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="EC2 Instance Remediation Flow"&gt;2e8364cc890832107f444c0145508bd0&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 19:43:30&lt;/sys_created_on&gt;&lt;sys_id&gt;92252c80894832107f444c0145508b61&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:34:43&lt;/sys_updated_on&gt;&lt;ui_id&gt;a3c11cd7-d6ad-4113-ba01-b3ccb261e466&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+1VTU/bQBD9K9aeWilO/bGx49xQA1IlClKhXABZ4/XYWWljG3sNpIj/3tnYSSABiijl1OM+78y8eTPPe37HZMomLADf477jjN0oQ3B5mHE+SnjgBEngh4BswAqYI91sEGoxizXWcwKvQbUG3f/q0SmVTaVgcfYIFDOp0hoLNjm/HLAKaspD0Wxyt/VJLyqMFSSoKPZE17LIKfy19NaBS37WacfvSdKmkAFXJco6NXzcAcNbjUWKVDID1eCAzaFIQZf1gk103RJQI6THhVqsb8xkoSnZdEGlpLC6StZVi/XC+oTDfDiwLowSlrRdz+ejwKpxjqkELcvign1mpshtI38RpbHjOKZEhiSKMBzZg2Pcy9vBYlZKgceVSdMhGhLVx4hStfPiqGveDAYzaJVeDYaQtqF8WJluDf++mexkVt78WBU8kMVSmP6jKgWo9Qk0yZe0GhszyVaebonaIYfb40RF3Rc6nkNVERJXdXktl1WI9HyYKzoMM1XeELtG5sUQhOlwSFOA4QHh0yV8BrU07X6nNBRsyv0sJKn+zazLCKIIYOzZMEJu89BFe+xmoZ2CD+4Yg9DJfHa/lDa+ak1TnUi9HHGnKF1oRC0rvUcUrrHv/H7QW8bzXtrJxN9snyrzuMaGBtA8sIy7axizYm92zCkFfzkwFFeueQXDVfB+YdS0pqhBKkytwzLPu4E92UPvoKQsFUKxsZD3soV6ZMdDawPwD1n/XuYenT45g3/lj41kjw3yaHofYpIk4eAmkWcL4QubOyKzI3TG9igVDjqpH0ZZ+tcmCfDFFQx2ftFENV4iG6PkqkxAxd2FXdNsf36X9+bPtLfem72qso463s829My747/p3fn/aLyzHyIffIQIbZElmc2jkNuAnEzBncT1I+6Oorf74fI3KnB7KmkJAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;2de05916c31332002841b63b12d3aee1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="EC2 Instance Remediation Flow"&gt;2e8364cc890832107f444c0145508bd0&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 19:39:17&lt;/sys_created_on&gt;&lt;sys_id&gt;a834ec40894832107f444c0145508b29&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:34:43&lt;/sys_updated_on&gt;&lt;ui_id&gt;d8b104ae-10a3-4532-afb5-22b8256a2d86&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/9VU22rcMBD9FaFnY+x1uiT7VpIu7EOz0Ete0tTI1ngtkCVXkp24y/57R7K9SZMuhFIoMRg8F505Mzqe2z0VnK7oMoXk3UW6LLM0yxZJsjg/S4tlVqQLnjGAMxpRxRrATMcKCXkwItoz2XmnUKXgoBy6uLCtZMPNFNk8RspaSG5A0dXtXURbZhDDgaGr/bOQG1rIJStAIsAXX49cj/Vey/W3wye4+yrPfdpwTyiJKDw4UBywXsWkhYg2THHmtBnoypkOHQYY3yo5HDNqgW2uKPW5D1b8RPTzxOdVgK2VMMaOZj5NanSXtRYlbFsntBo9gdgU1LJr1PXYhJ8xVKyTbp4xejqLeNB6yp7ExKj6XOv7T3PBtVChuykodcnk0WLOGVF0Dqy/D5DQIFDesLYVape3RvciHEYuTbyTaMSV1PdY1Iqdilnpicc4IRav0X8V3DfMCN/FR4TBw4fQff6j83XHPibG+dg0JtjSiNa9R7geJnKHaBYph+Ti5MWnxeNFB13aJwK1tTbOkw3wSPVblyQZ/3C5IBtlHcPxkP3+Eu/UASfakK8t9595GpedwfG5WEx5QSuHAxGWbNfr7y8wUfGy40DmfLK5iogTDaDZtBFBHeE7EO1qMMTgqHumHKkESG5JZXRDBt0Z4rkFDcQv/6q33s5frgJocAgOyDiG6NWqmAHWgdQfZDLvgqlA3k8Fpn2Q/qt9kC6T8PyfrTDyfGNL4cl+PrEe7n4B+Ur+lMUGAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=2e8364cc890832107f444c0145508bd0"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=2e8364cc890832107f444c0145508bd0"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=2e8364cc890832107f444c0145508bd0"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=2e8364cc890832107f444c0145508bd0"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_2e8364cc890832107f444c0145508bd0&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:13:56&lt;/sys_created_on&gt;&lt;sys_id&gt;882ce004898832107f444c0145508ba0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 20:13:56&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_2e8364cc890832107f444c0145508bd0&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:13:56&lt;/sys_created_on&gt;&lt;sys_id&gt;9c2ce004898832107f444c0145508ba6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 20:13:56&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_2e8364cc890832107f444c0145508bd0&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:13:56&lt;/sys_created_on&gt;&lt;sys_id&gt;dc2ce004898832107f444c0145508ba3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 20:13:56&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2e8364cc890832107f444c0145508bd0"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2e8364cc890832107f444c0145508bd0"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;27000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;ec2_instance_remediation_flow&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"a3c11cd7-d6ad-4113-ba01-b3ccb261e466.slack_message","label":"2 - AI Search Custom➛Articles","reference_display":"Articles","type":"string","base_type":"string","usedInstances":{"ea730883-63c8-4911-a8b6-2f191384a0ad":["ah_message"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2dc0c791-58bf-4282-bc2a-e4395c4094cf"}},{"name":"Created or Updated_1.current.instance_name","label":"Trigger - Record Created or Updated➛EC2 Instance Record➛Instance Name","reference":"","reference_display":"Instance Name","type":"string","base_type":"string","parent_table_name":"x_snc_ec2_monito_0_ec2_instance","column_name":"instance_name","usedInstances":{"d8b104ae-10a3-4532-afb5-22b8256a2d86":["short_description"]}},{"name":"d8b104ae-10a3-4532-afb5-22b8256a2d86.record.knowledge","label":"1 - Create Record➛Incident Record➛Knowledge","reference":"","reference_display":"Knowledge","type":"boolean","base_type":"boolean","parent_table_name":"incident","column_name":"knowledge","usedInstances":{}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;EC2 Instance Remediation Flow&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="EC2 Instance Remediation Flow"&gt;2e8364cc890832107f444c0145508bd0&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d8ad6cc4898832107f444c0145508b6f&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:55:35&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d8ad6cc4898832107f444c0145508b6f"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d8ad6cc4898832107f444c0145508b6f"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=d8ad6cc4898832107f444c0145508b6f"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=d8ad6cc4898832107f444c0145508b6f^sys_idNOT INd0ad6cc4898832107f444c0145508b70"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;d8ad6cc4898832107f444c0145508b6f&lt;/id&gt;&lt;name&gt;EC2 Instance Remediation Flow&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:30&lt;/sys_created_on&gt;&lt;sys_id&gt;d0ad6cc4898832107f444c0145508b70&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 20:20:30&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d0ad6cc4898832107f444c0145508b70"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=d8ad6cc4898832107f444c0145508b6f^sys_idNOT IN18ad6cc4898832107f444c0145508b85,54ad6cc4898832107f444c0145508b71,98ad6cc4898832107f444c0145508b7e"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="EC2 Instance Remediation Flow"&gt;d8ad6cc4898832107f444c0145508b6f&lt;/model&gt;&lt;model_id&gt;d8ad6cc4898832107f444c0145508b6f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_d8ad6cc4898832107f444c0145508b6f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:31&lt;/sys_created_on&gt;&lt;sys_id&gt;18ad6cc4898832107f444c0145508b85&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:55:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18ad6cc4898832107f444c0145508b85"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="EC2 Instance Remediation Flow"&gt;d8ad6cc4898832107f444c0145508b6f&lt;/model&gt;&lt;model_id&gt;d8ad6cc4898832107f444c0145508b6f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_d8ad6cc4898832107f444c0145508b6f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:30&lt;/sys_created_on&gt;&lt;sys_id&gt;54ad6cc4898832107f444c0145508b71&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:55:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=54ad6cc4898832107f444c0145508b71"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDCollection&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;global&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-13 23:19:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;f4f014150f023300ecf0cc52ff767eed&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model"&gt;e1fd8f403d0522107f4488addddbe23d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 05:06:11&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_collection&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="EC2 Instance Remediation Flow"&gt;d8ad6cc4898832107f444c0145508b6f&lt;/model&gt;&lt;model_id&gt;d8ad6cc4898832107f444c0145508b6f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_d8ad6cc4898832107f444c0145508b6f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:30&lt;/sys_created_on&gt;&lt;sys_id&gt;98ad6cc4898832107f444c0145508b7e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:34:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=98ad6cc4898832107f444c0145508b7e"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=d8ad6cc4898832107f444c0145508b6f"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=d8ad6cc4898832107f444c0145508b6f"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=d8ad6cc4898832107f444c0145508b6f^sys_idNOT INa0ad6cc4898832107f444c0145508b93"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="EC2 Instance Remediation Flow"&gt;d8ad6cc4898832107f444c0145508b6f&lt;/flow&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:31&lt;/sys_created_on&gt;&lt;sys_id&gt;a0ad6cc4898832107f444c0145508b93&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:34:44&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/9VaW2/bNhT+K4KeNsAbdLGtOHvKnGQNkDaA43YPXSBQJGUTkylXpJS4Rf/7DnWxZV0cX5TOzUNikRTPdw6/8x3SzOdveoA8GuiX+hR5AdV7OuOSRhwF09WSQrNUzS5HC9W3QJwgGUYr/VJGMe3pfhQupnSxDJCEwT4KBDSGEaGRfmn29AQFMX1ciTsCM8H76TT5nHreDc8vruDYpdhyFyFnMnSN9IFxIRHHaiRhAmysPuUv3Iwt7W7Ti+csIBHl+uXnp56+RBGYkQrCt0oXUziwb1JzdGFg24Ifw7Au+qY3tD3TIjaiyIAJqzGp4JYNodk4TV8k5YSSdTxqUYsoIg88WJVGvAj2Fea8MFSvTwExplnM1o9uHoSsGc9DhunDUrKQZy0ZuqwzDOIF/5ChVuGjPooDWYQPWmIB89GlAsrlGof/OA+fJ4XBW8ZTn/LOIMQoWD8hKSPmxZIKFWafBRBwN4uICOMoRT+5GT9Mrt2/r6bjdzcTd3LzOJ3cjac31/r31C/3S6xmzBDmWNzMne/rNb9lNFDLJlbChfXr6QJHbCmvsGRJwbnvvQ2PxyEnLI1Kjcu46BLbXC6830Vmw2ilMy5ZLChdcNeFPzIW/8SGYZOH29uD2eoYDiFmG1uxV2Jr2fMGaLIhCGXvdvE2b2knbt8w/ifq5kJ0LHMXIaHB9WY6HTpnM+Ay48tYqhgVcXHDJY1UPOA9/dPV/fjd1Ye/bh7/yP/eTh7eF5+nD/DeM+JSuKBmiBC3FHVlAnx5LQWymNTz4PUMiGIOU7jr9aznQboA65W4ZwIc/wxZXEQ5nRL6/ft8yknMtRAWHn5pOI4gyFIr1NC/W6BZvjb+Iw0oliUS+R9F+ek9E4LxWQn12mgalZrNtTkgo1a4lNkWJxp/6lIE6kFPKsGs1LCDlcDEfcuwvaHhKB0w4aNvGo4xQD6xDcO7KClBHUwrSlmhRIeKcJgeiJSCwR6EqwY2h2yUc2Av8iTbzCtcV8TIZWfcDTSzI2iWglaRT/sg/VyTMWu+3ubkLtc63jEgkqj6SPaVQzVgD93zg/AZpPsIzfMQ/ncWhTEnVRFSc2qMa5sR2i95/H7tUP/8MKK7AWyPOCfl24S9IC7iqw40z7JN6gz7QwOkzlYqNxiNPIws33eGDjXNiuZtYDRiO2Ote4VjSRNJ23SvkS5JE8sOULwTANbU72CAp+teTsdG1cv6fg59e55T7gLUyA2UgtVkbhYwQou+bnO8ZjrZZPWpeY69ERkMHAc7cMKBPPf71ENm3xqgkTO0qV/J8xqUXTBlQ2Te8NyjzqnKfIsGfMy6zuv4/pZkFVRKVXoOr8gcdqrpOygzUqqKajG0VErCSPsQ8t/uNuO0RwrFLj3ydlWa90GhFlZ7WxheKOe1vQGY/hPat0yrPWVLVM7u0FQhSbLt66nCgiwLjUy7RVicYZOwbMC0wzzTrcSeeZG0ZljTnmJfmieN2dK6CTiCuBVylHcHO7YvXQXF7Dwo1tsFxT55y1RkYOtJ8RiwP1HhSvcQp1QvZZO6oV+W7OtQgw4NjGjM1/LvGuHg7600OacQ0gD2xmBQU9ZP1epy7ahDWTP4xwLJdtu1GgbNWr5tOr/yVKFCt2dcSmw8Im0lqu+07n3b61Sl+0yL1cG5kDSl1s6Kddi81Tkba1aJqNs82LMadep1c0k6zevGovSa16eXm10n9AYU519IFOhptgxHlI8wu9ouqTXu8rIl5uxLTF08R3yWXaQUhm4hzhThuZYN0bIhXRaA4BmthF6tREBalRf5187QABnCM/3qyjJNaLSq+aoatXhJVHH4wcXH2lF8intIISN4c7YqZV7hx4HfpXojyK6BgW3TtGs3yYPyTfI2ddsBtRQW69jCMmfpFWzJfL48ki1oKmPre1RtgSSeU9HTYA3TO4tU5VgkZDr6d73DQxUu3+3kmdlUd1pzJ2lLu1Yd35EOSTWRmoS7gdpV+pSle+fxaYf7ZifuW124bx/nfv/kypVHpLl05dHrtlwd8e8zenO9evoPsJmlEAImAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=d8ad6cc4898832107f444c0145508b6f^sys_idNOT IN2cad6cc4898832107f444c0145508b91,2cad6cc4898832107f444c0145508b92,acad6cc4898832107f444c0145508b90"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="AI Search Custom"&gt;2e324300819fea147f445b4606b6379e&lt;/action_type&gt;&lt;action_type_parent display_value="AI Search Custom"&gt;dcfee7fd81032ad07f445b4606b637b8&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;2e324300819fea147f445b4606b6379e&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="EC2 Instance Remediation Flow"&gt;d8ad6cc4898832107f444c0145508b6f&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:31&lt;/sys_created_on&gt;&lt;sys_id&gt;2cad6cc4898832107f444c0145508b91&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:34:45&lt;/sys_updated_on&gt;&lt;ui_id&gt;a3c11cd7-d6ad-4113-ba01-b3ccb261e466&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+1VXU/bMBT9K5GfNqnp8uF+pG+IgjSJgbQxXgBFN85NaslNguMAHeK/77pJW2gZg2lMPOzRx9e+x+f46J7fMZmyCRtCGPDQ88Z+lCH4fJRxPkj40Bsmw3AEyHqsgDlSZY2gxSw2qOcEXoNqLHqwH9AqlXWlYHH2CBQzqVKNBZucX/ZYBZruodNscre19VIiChJUVPptycQ5bZk8Sc8sqiVotCzybn20Or4CS51aOn6P4a3BIkXikYGqscfmUKRgSr1gE6MbAjRCelKoxbpiJgtDl00X1F8Kp23vXDWoF84H7Of9nnNhhXCk6wchHwwdjXNMJRhZFhfsI7NNbmv5g3iOPc+zLTIkTYQlzh4s407dFs6mYICe0AjT6K5UzEopsG7VTDGDRpn9h1hbcFLZ3u0RA4lanS5VMy+OWxnZ+oKVmYQ0NZHAykpkH90pkH2blTdfVywPZbFUs9tUpQC1XoEhzZPGWD53rJGnW/a0yI5BqEiywsRzqCpC4kqX13LZhUjP+7miRT9T5Q2xq2Ve9EHYF/bJOugfEj5dwmegpX3uF7qGDtt23wtJVn22H28AUQQwDlwYIHf5yEd37GcjN4UQ/DEOR14Wsvseqxf1voK63ghFDsVXjX1mK1snUNxqbI8ILSuzR6SusdPivtcFLwie++9JuPnZqsxjjTVZUj8Inr8bO/tTX527F/BY5e6gsCo6UzQgFabOUZnnrVFPMu0ymJSlQii2QnhKXD8dWkU2QQyeD2KH7CRxHSP+fkPUWdOh0yd9e6uUbQx4HLNHFvyTqCUJBz+JAleIULjcE5kboTd2B6nw0EvDUZSlbxC1IT77xYc7Q4TIx0tkE7dclQmouC3Yjd729itn3+8Jbs2+vapyjluGv6T+mhkY/tEM/D/A3sMAi0IIESJ0RZZkLo9G3AXkFC3uJX4YcX8Q/c1UXf4ExGgMGzsKAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Post a Message"&gt;41ca0f433be0030057a4a2e334efc474&lt;/action_type&gt;&lt;action_type_parent display_value="Post a Message"&gt;d3b4e24b3ba0030057a4a2e334efc4e4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;41ca0f433be0030057a4a2e334efc474&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="EC2 Instance Remediation Flow"&gt;d8ad6cc4898832107f444c0145508b6f&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:31&lt;/sys_created_on&gt;&lt;sys_id&gt;2cad6cc4898832107f444c0145508b92&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:34:45&lt;/sys_updated_on&gt;&lt;ui_id&gt;ea730883-63c8-4911-a8b6-2f191384a0ad&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/+2T227iMBCGX2XlawgOCce7FtTValu6Sw8rtaqiie0Qq85hYwdKEe++NkmgbCsEq+4N4tLj8cw/v795XCBOUR8RSgAHruP4DGMH41YHXGgyx3FZQNxOG9VQDBHTmRB6M+aHSfLs5ZnQ8SmI3FyESqWy32iYK2lJAeTZIknUkCybcsJk4xY3O7Z7OTpvf22c496gdTvC338MG073YtY7C7sPzz8H5x3pj+3R8OyBjnVtymUqYH7/H1uQkAuasRj1H59qKIVMj6lYhvqLv6729UmAz4RO/VW49OVufLnDPTVPTVyqjMeT8nxZVripgklGjSJcQ+xFsZgyLSUAIVkNRRBTUEk2X0cyBvQ6FptAyGOlqyGT/CL5q+7XxRibzIDp8QgrbtdHr7S9CAdDUKCl5ETlWZlKwsT4XRhDWQC5UIO3sSLhOlU8iYsnCnxRvU5EHsWjwhG0LlD9so7kUotgqRnVaC8HCW7CZDauVF7weOVKeSkSAmJ9AqW983Nl9CwQEyzShbwI0lQ76qVZMuWrx1pLZE2EPliBSGa6qeST2AJihFvaWbAudHy4Ct9Dxs0UV7qMfrysITmXAwFSbmbRJnq/c6OkmKycwStsME9IxlN1phtMWSl3WSu3EO+kq+tscRQxKWHC3mzgYgEOsW1CO3XaBlp3bdup+4Dtuu8Q4jfbNnPb7WJvqufL5fs1++c6h+3SHtNWu3S1nvWj+Q/ZIfu0Q8e9Q669k6pgiyHtUbY6bZbo/TocDPYeEiqw7zYCPlR1CNrNE9rHjXa3tYurHmxBREKIYyY+l+w9FFRkD9b9P9J0CNfOievj5pr2dlEFrS2GONE1PxXqPdpXUH8rmr9TcwjO7gnn48T56Q8gwYSGTQ8AAA==&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;2de05916c31332002841b63b12d3aee1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="EC2 Instance Remediation Flow"&gt;d8ad6cc4898832107f444c0145508b6f&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:31&lt;/sys_created_on&gt;&lt;sys_id&gt;acad6cc4898832107f444c0145508b90&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:34:45&lt;/sys_updated_on&gt;&lt;ui_id&gt;d8b104ae-10a3-4532-afb5-22b8256a2d86&lt;/ui_id&gt;&lt;values&gt;H4sIAAAAAAAA/9VVXWvbMBT9K0LPxthxF9q8jWSBwNbAuvWla41sXccCWfIkOa0X8t935Y8ktA3bYC8JBKL7pXOOj28edlRwOqPTGKIPN/E0T+IkmUTR5PoqzqZJFk94wgCuaEAVqwArHcskpN0hoFsmGx8UKhcclMMQF7aWrL0fMqtjJi+F5AYUnT08BrRmBmc4MHS2e5X6W0SSZSCx9JuHdAaha+t3Y59Pe8ltn9CGezxRQOHFgeKAQAomLQS0Yoozp01LZ840GDDA+FrJ9lBRCmQ5o9TXvljxC6+9jnxdAcgshz53OKaDUH24WDDH7nBy7hozlOalFjnYXhMOBWukm5/G+oJ17YRWfUtHc+jWsqnUbS8JPQwYnwtGGosgoPY8PfKBRnFX6uevI8qlUJ0kQ1LqnMnDiTlnRNY4j2dHQUKFg9KK1bVQm7Q2eiu6ZsRShRuJh7CQ+hkvtWKjQpZ74CHKysIlxhdd+J4Z4Vl8wTHYvA+obe1cMmuPXFDE9GfjkfTMBg5pL4NvyY2o3Ue8YAsD3H0wWp1DdHPWWHF2NFLnbntic1tq4zz8bjyC/9FEUcI/zSdkpaxjKBjZ7eZoDQecaEO+19z/TOMwbwwK6kIx1HVe3O+JsGS9XD69mYnvjWw4kLGerBYBcaICPFZ1QNCO+G2JdiUYYlD8LVOOFAIkt6QwuiKtbgzx2DpXhG/fzUun848L5c/PfVwoy+7ad4wwbhOoUEcHaW+MVxtlSJL7ITlslfh/bZV4GnWfC9otPbmLXy0n/yJnlszjb/kzq/pRBwAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d8ad6cc4898832107f444c0145508b6f"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=d8ad6cc4898832107f444c0145508b6f"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=d8ad6cc4898832107f444c0145508b6f"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=d8ad6cc4898832107f444c0145508b6f"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_d8ad6cc4898832107f444c0145508b6f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:31&lt;/sys_created_on&gt;&lt;sys_id&gt;50ad6cc4898832107f444c0145508b83&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 20:20:31&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_d8ad6cc4898832107f444c0145508b6f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:31&lt;/sys_created_on&gt;&lt;sys_id&gt;6cad6cc4898832107f444c0145508b89&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 20:20:31&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_d8ad6cc4898832107f444c0145508b6f&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:30&lt;/sys_created_on&gt;&lt;sys_id&gt;d0ad6cc4898832107f444c0145508b7c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 20:20:30&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d8ad6cc4898832107f444c0145508b6f"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d8ad6cc4898832107f444c0145508b6f"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;2e8364cc890832107f444c0145508bd0&lt;/sys_id&gt;&lt;latest_snapshot&gt;d8ad6cc4898832107f444c0145508b6f&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-yokohama-12-18-2024__patch1-02-21-2025_03-05-2025_2133.zip&lt;/compiler_build&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=2e8364cc890832107f444c0145508bd0^sys_idNOT IN38ad6cc4898832107f444c0145508be1"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.Every&lt;/binding_strategy&gt;&lt;plan&gt;{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"38ad6cc4898832107f444c0145508be1","name":"plan","plan_signature":null}}&lt;/plan&gt;&lt;plan_id&gt;2e8364cc890832107f444c0145508bd0&lt;/plan_id&gt;&lt;snapshot&gt;d8ad6cc4898832107f444c0145508b6f&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:20:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;38ad6cc4898832107f444c0145508be1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 22:34:46&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;0f5ccdcc898c32107f444c0145508b2d&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=2e8364cc890832107f444c0145508bd0"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1175152860</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>7239118c890072107f444c0145508be1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19940242c080000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>EC2 Instance Remediation Flow</target_name>
+<type>Flow</type>
+<update_domain>global</update_domain>
+<update_guid>d82151c845cc32105e0996978d28374f</update_guid>
+<update_guid_history>d82151c845cc32105e0996978d28374f:-1175152860,ef1111c8bdcc32101607d4a4ac5a685a:-1889015199,2ff0d9888ccc321053b62d01de917dbc:522998561,0b80994884cc3210b2f5f57d01506ec2:-1889015199,075ccdcc498c3210035ce5dde8f40a3f:-1142976323,965c8dcc9c8c32106ab3a4b321574b40:-1777517810,b24b054cf18c3210403d8fa5efc8f48c:686679171,d5ea850c0c8c32107981a7bb14851f48:1578994535,c2da050c038c3210fa06cdfe53f3be61:-1330391852,e19ac9c8d08c32107accdf958398dc09:-1598651093,4d2ac988c48c3210a5561b0a729e019b:1600816032,bcad6cc4ac883210cacebc2dc28c83ed:73615079,44ad6cc4e3883210894d53dc7ebe2f1b:373929161,1b6d24c4c288321024791c73ccf0a832:1193619757,ba6cac042b8832107f97249fc2836562:1087801232,2d2c24048a88321086e70644a9763d08:2064327273,c0bb24c0348832107f41b1fb9fa75706:-512162570,c56b68802a883210cd7fd32272941e9a:1679696567,9eea28407b8832105d2ee20d92d8ec05:219053142,3fcae040a18832103d42a1aa29a066b1:1338824334,2039a84c7b4832106c50b8bc0a70723b:-662034916,1809a04c71483210dcad57ab45cf0e8f:1338824334,b9c6e008dd4832100939febfe58ed7f8:-336220664,b835e804f4483210a9b02c81a831dd8e:144807193,daf4e004554832104ac7d866ecc35dbe:248278603,8f34688072483210e67673630c496572:-1868443913,2224e4808c4832106b4b92d5f1913f2a:-1801290346,e28364ccd80832103fe5c528194c58d7:1296933356</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>syslog_ac094108898c32107f444c0145508bef</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="syslog"><syslog action="INSERT_OR_UPDATE"><context_map>{"_page_name":"api/now/processflow/action/action_types/dcfee7fd81032ad07f445b4606b637b8/test","_system_id":"kura-labs-jul-4728-0003.internal.cloudapp.net:labinstance001_443","_logged_in_user":"admin","_script_record":"dcfee7fd81032ad07f445b4606b637b8","_scope":"global","_user":"admin","_is_impersonating":"false","_txid":"e3f805c0898c","_session_id":"C7067B7389B322107F444C0145508B2D","_script_table":"sys_hub_action_type_definition"}</context_map><level>0</level><message>AI Search SUCCESS: Found 1 items using app: Service Portal Default Search Application</message><sequence>1994003b2f00000001</sequence><source>*** Script</source><source_application_family display_value="">_app_family</source_application_family><source_package display_value="Global" source="global">global</source_package><sys_class_name>syslog</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-09-12 22:20:08</sys_created_on><sys_id>ac094108898c32107f444c0145508bef</sys_id></syslog></record_update>]]></payload>
+<payload_hash>-1352792443</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>7639118c890072107f444c0145508be0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199403311f20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>ac094108898c32107f444c0145508bef</target_name>
+<type>Log Entry</type>
+<update_domain>global</update_domain>
+<update_guid>26d411406d0072107cd7c45e495e53ad</update_guid>
+<update_guid_history>26d411406d0072107cd7c45e495e53ad:-1352792443</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_snc_ec2_monito_0_ec2_instance_b9218880890432107f444c0145508b6e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ec2_monito_0_ec2_instance"><x_snc_ec2_monito_0_ec2_instance action="INSERT_OR_UPDATE"><instance_id>i-0ea0b0054603e01ab</instance_id><instance_name>Codon-176-10</instance_name><instance_status>ON</instance_status><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:06:11</sys_created_on><sys_id>b9218880890432107f444c0145508b6e</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 22:35:09</sys_updated_on></x_snc_ec2_monito_0_ec2_instance></record_update>]]></payload>
+<payload_hash>-1033419252</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>7639118c890072107f444c0145508be3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1994036e4740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>b9218880890432107f444c0145508b6e</target_name>
+<type>EC2 Instance</type>
+<update_domain>global</update_domain>
+<update_guid>7fc5dd4483007210d9c6d42490571c61</update_guid>
+<update_guid_history>7fc5dd4483007210d9c6d42490571c61:-1033419252</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="CMDB Workspace">c8ab76825371201032b7ddeeff7b1280</application>
+<category>customer</category>
+<comments/>
+<name>sn_cmdb_ws_ms_class_metadata_ce9f62555bd50110693e7da52d81c7bd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmdb_ws_ms_class_metadata"><sn_cmdb_ws_ms_class_metadata action="INSERT_OR_UPDATE"><ci_count_percent>100</ci_count_percent><sys_class_name>sn_cmdb_ws_ms_class_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 09:01:20</sys_created_on><sys_domain>global</sys_domain><sys_id>ce9f62555bd50110693e7da52d81c7bd</sys_id><sys_mod_count>52</sys_mod_count><sys_name/><sys_package display_value="CMDB Workspace" source="sn_cmdb_ws">c8ab76825371201032b7ddeeff7b1280</sys_package><sys_policy/><sys_scope display_value="CMDB Workspace">c8ab76825371201032b7ddeeff7b1280</sys_scope><sys_update_name>sn_cmdb_ws_ms_class_metadata_ce9f62555bd50110693e7da52d81c7bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 23:30:00</sys_updated_on><table>cmdb_ci_hardware</table></sn_cmdb_ws_ms_class_metadata></record_update>]]></payload>
+<payload_hash>-1966656346</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>7a39118c890072107f444c0145508bdf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1994043ac2a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>cmdb_ci_hardware</table>
+<target_name/>
+<type>CMDB Workspace Multisource Class Metadat</type>
+<update_domain>global</update_domain>
+<update_guid>5009d54c59007210bd241adf0767d2e1</update_guid>
+<update_guid_history>5009d54c59007210bd241adf0767d2e1:-1966656346,d809d54c670072109e49a6314fdc3049:-2121401785,673767b776332210de24f39eccb27a2c:-1966656346,af3767b7be332210afeba788df863c29:-2121401785,433cbd03a5f32210739cbac930ce03e0:-1966656346,433cbd03e5f32210225cd2641195b7de:-2121401785,d8f9a987a13322105e2a9d47d85396bb:-1966656346,88f9a987843322106db1343516eb9bb9:-2121401785,e4b28f8de9b32210c08370b5cf40e045:-1966656346,a4b28f8d52b3221063bba4bf98794543:-2121401785,2e19b93812732210a3e9348d079a2b3d:-1966656346,6e19b938a5732210de255681ffb42e3b:-2121401785,44b231f4df332210b2b1eede7e990500:-1966656346,f3a2fdb4cc3322108fdbf07f4e4b33fe:-2121401785,8629cc97fe6722104c45469b1285ed2b:-1966656346,4629cc97ef6722103ce344dae5708829:-2121401785,949f367261a32210ab11c045946dab41:-1966656346,549f367227a32210972b3747b96b2c3f:-2121401785,32f5f1e6766322102bf99e3b7b283259:-1966656346,32f5f1e6d4632210cc8d85c471934f57:-2121401785,3a6f21e6c5232210ed0470eacd2eb6ae:-1966656346,f66f21e6102322101aecb2b0e0c043ac:-2121401785,3a364526fa4b221096c71ec6c3f39b63:-1966656346,66364526e74b22107428aa3ff3e72061:-2121401785,ccf808622c032210a178b65c6df98bdc:-1966656346,c8f80862c10322104ef940267da286da:-2121401785,2a4a71732e322210f0dbe876d1b4a128:-1966656346,6a4a317324322210d0cca861858c8084:-2121401785,d156e9532a3622108b0deb359f661010:-1966656346,d156e953a0362210b6cada6dcbeb950e:-2121401785,9aacc1d7fc3222100f59384d4bac0cf7:-1966656346,1aacc1d78732221006378671a6a885f5:-2121401785,4533a14d84f622101de43457079bb3ff:-1966656346,0533a14ddcf62210422b1d1af07913fd:-2121401785,d399147c7a362210ed12e12aea3af5ff:-1966656346,9b99147cda362210410db79605e40780:-2121401785,516a3f64b73222107c0a9e5058ecd2bf:-1966656346,5d6a3f646a322210714b91d9b2eebdbc:-2121401785,cedc3c375ce6221006321e87af5aa4ed:-1966656346,46dc3c37f6e62210975ea11e58c89b31:-2121401785,1f212073712222101868468afb5e0955:-1966656346,c321ec336b222210e485c5d84e40b34d:-2121401785,101433699349221041ff73d2c0faeeb1:-1966656346,501433692b492210085ad973878d4b4a:-2121401785,267a22d96885e610d9850491642f5dd8:-1966656346,ae7a22d99285e610c48c6354d62a70d5:-2121401785,7ce06145210d66103678902c17af5c9b:-1966656346,f4e06145350d66105118e04664038299:-2121401785,93479c7c5d4126100e21b0a5747de766:-1966656346,db479c7c2a412610da24ae080fd93163:-2121401785,99bd87d4a6c5a210fcd47b1ecfe81c27:-1966656346,d9bd87d4f0c5a210e84f126ee4e81d25:-2121401785,91bd87d40fc5a21015380d193a8d5c24:-1966656346</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_7df18804890432107f444c0145508b5b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_snc_ec2_monito_0_remediation_log</description><local_or_existing>Local</local_or_existing><name>x_snc_ec2_monito_0_remediation_log</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:09:43</sys_created_on><sys_id>7df18804890432107f444c0145508b5b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ec2_monito_0_remediation_log</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_security_acl_7df18804890432107f444c0145508b5b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:09:43</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1152269259</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>7a39118c890072107f444c0145508be2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1994030052e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>x_snc_ec2_monito_0_remediation_log</table>
+<target_name>x_snc_ec2_monito_0_remediation_log</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>7d145180bc0072103af7d9c9db27e4ca</update_guid>
+<update_guid_history>7d145180bc0072103af7d9c9db27e4ca:-1152269259,35f1880449043210637cf9944798685e:-1152269259</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_385084cc89c032107f444c0145508be8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_snc_ec2_monito_0_ec2_instance</description><local_or_existing>Local</local_or_existing><name>x_snc_ec2_monito_0_ec2_instance</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:02:34</sys_created_on><sys_id>385084cc89c032107f444c0145508be8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ec2_monito_0_ec2_instance</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_security_acl_385084cc89c032107f444c0145508be8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:02:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2092651457</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>7e39118c890072107f444c0145508be1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199403005890000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>x_snc_ec2_monito_0_ec2_instance</table>
+<target_name>x_snc_ec2_monito_0_ec2_instance</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>fd14518033007210bff18896287e49d0</update_guid>
+<update_guid_history>fd14518033007210bff18896287e49d0:2092651457,b05008000d04321061341fe0ad477d12:2092651457</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>syslog_705b854c898c32107f444c0145508b1d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="syslog"><syslog action="INSERT_OR_UPDATE"><context_map>{"_page_name":"api/now/processflow/flow/2e8364cc890832107f444c0145508bd0/test","_system_id":"kura-labs-jul-4728-0003.internal.cloudapp.net:labinstance001_443","_logged_in_user":"admin","_script_record":"dcfee7fd81032ad07f445b4606b637b8","_scope":"global","_user":"admin","_is_impersonating":"false","_txid":"8c5b45c0898c","_session_id":"C7067B7389B322107F444C0145508B2D","_script_table":"sys_hub_action_type_definition"}</context_map><level>0</level><message>AI Search SUCCESS: Found 1 items using app: Service Portal Default Search Application</message><sequence>199400cf5ca0000001</sequence><source>*** Script</source><source_application_family display_value="">_app_family</source_application_family><source_package display_value="Global" source="global">global</source_package><sys_class_name>syslog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 22:30:15</sys_created_on><sys_id>705b854c898c32107f444c0145508b1d</sys_id></syslog></record_update>]]></payload>
+<payload_hash>1943931316</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>b239118c890072107f444c0145508be0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199403311d80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>705b854c898c32107f444c0145508b1d</target_name>
+<type>Log Entry</type>
+<update_domain>global</update_domain>
+<update_guid>a6d4114033007210959465c77a2855ab</update_guid>
+<update_guid_history>a6d4114033007210959465c77a2855ab:1943931316</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_00d94cc0894432107f444c0145508b1c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;trigger_EC2_remediation&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Trigger EC2 Remediation&lt;/name&gt;&lt;onclick&gt;trigger_EC2_Remediation()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function trigger_EC2_Remediation() {
+  var recordSysId = g_form.getUniqueValue();
+
+  if (!recordSysId) {
+    alert('Unable to get record ID');
+    return;
+  }
+
+  var ga = new GlideAjax('x_snc_ec2_monito_0.EC2RemediationHelper');
+  ga.addParam('sysparm_name', 'triggerRemediation');
+  ga.addParam('sysparm_ec2_sys_id', recordSysId);
+
+  ga.getXMLAnswer(function (answer) {
+    if (!answer) {
+      alert('No response from server. Check the Remediation Log for details.');
+      return;
+    }
+
+    if (answer.indexOf('"success":true') !== -1) {
+      alert('Remediation request submitted successfully!');
+    } else {
+      alert(
+        'Remediation request failed. Check the Remediation Log for error details.'
+      );
+    }
+
+    g_form.reload();
+  });
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 17:46:57&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;00d94cc0894432107f444c0145508b1c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Trigger EC2 Remediation&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EC2 Monitoring and Remediation"&gt;de98b3bf89b322107f444c0145508b68&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_00d94cc0894432107f444c0145508b1c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 21:46:22&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_ec2_monito_0_ec2_instance&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>803149958</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>b239118c890072107f444c0145508be3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1994019c35e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>x_snc_ec2_monito_0_ec2_instance</table>
+<target_name>Trigger EC2 Remediation</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>b18e8d04fbcc321011862e879c23d1fc</update_guid>
+<update_guid_history>b18e8d04fbcc321011862e879c23d1fc:803149958,4e418dcc790c3210de77081aedcca427:803149958,4b7a80c4fb4432105c030d2cd530d440:732843605</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>kb_knowledge_7d64f00889c832107f444c0145508b35</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;&lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;article_id&gt;7d64f00889c832107f444c0145508b35&lt;/article_id&gt;&lt;article_type&gt;text&lt;/article_type&gt;&lt;author display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/author&gt;&lt;base_version/&gt;&lt;can_read_user_criteria/&gt;&lt;cannot_read_user_criteria/&gt;&lt;category/&gt;&lt;cmdb_ci/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;disable_commenting&gt;false&lt;/disable_commenting&gt;&lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;&lt;display_attachments&gt;false&lt;/display_attachments&gt;&lt;display_number&gt;KB0010501 v1.0&lt;/display_number&gt;&lt;flagged&gt;false&lt;/flagged&gt;&lt;generated_with_now_assist&gt;false&lt;/generated_with_now_assist&gt;&lt;helpful_count&gt;0&lt;/helpful_count&gt;&lt;image/&gt;&lt;instrumentation_metadata&gt;{"firstLoadTimestamp":1757710206326,"isGenAiGenerated":false,"isGenAiMultiTaskCancelled":false,"taskList":[],"timeTakenToFirstSave":227061,"timeTakenToPublish":791048}&lt;/instrumentation_metadata&gt;&lt;kb_category/&gt;&lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;&lt;latest&gt;true&lt;/latest&gt;&lt;latest_aqi/&gt;&lt;meta/&gt;&lt;meta_description&gt;To remediate EC2 instance failures, run the UI Action 'Trigger EC2 Remediation' on the associated record.&lt;/meta_description&gt;&lt;number&gt;KB0010501&lt;/number&gt;&lt;ownership_group/&gt;&lt;published&gt;2025-09-12&lt;/published&gt;&lt;rating/&gt;&lt;replacement_article/&gt;&lt;retired/&gt;&lt;revised_by/&gt;&lt;roles/&gt;&lt;scheduled_publish_date/&gt;&lt;short_description&gt;EC2 Instance Remediation Procedure&lt;/short_description&gt;&lt;source/&gt;&lt;summary display_value="KB0010501"&gt;5545b08889c832107f444c0145508b0a&lt;/summary&gt;&lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-12 20:53:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7d64f00889c832107f444c0145508b35&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;bernard.laboy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-12 21:03:17&lt;/sys_updated_on&gt;&lt;sys_view_count&gt;0&lt;/sys_view_count&gt;&lt;taxonomy_topic/&gt;&lt;text&gt;&lt;![CDATA[&lt;p&gt;To remediate EC2 instance failures, run the UI Action &amp;#39;Trigger EC2 Remediation&amp;#39; on the associated record.&lt;/p&gt;
+&lt;p&gt;Keywords: EC2, server, instance, restart, AWS, virtual machine, cloud server, EC2 server, reboot&lt;/p&gt;]]&gt;&lt;/text&gt;&lt;topic&gt;General&lt;/topic&gt;&lt;use_count&gt;0&lt;/use_count&gt;&lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;&lt;version display_value="1.0"&gt;0367b4cc89c832107f444c0145508b01&lt;/version&gt;&lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;&lt;wiki/&gt;&lt;workflow_state&gt;published&lt;/workflow_state&gt;&lt;/kb_knowledge&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7d64f00889c832107f444c0145508b35"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1670188469</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>b639118c890072107f444c0145508bdf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1994024d47b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>KB0010501 v1.0</target_name>
+<type>Knowledge</type>
+<update_domain>global</update_domain>
+<update_guid>b64119c87bcc32101bb2fcfe89e4084f</update_guid>
+<update_guid_history>b64119c87bcc32101bb2fcfe89e4084f:1670188469</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_74500800890432107f444c0145508b75</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_snc_ec2_monito_0_ec2_instance</description><local_or_existing>Local</local_or_existing><name>x_snc_ec2_monito_0_ec2_instance</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:02:34</sys_created_on><sys_id>74500800890432107f444c0145508b75</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ec2_monito_0_ec2_instance</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_security_acl_74500800890432107f444c0145508b75</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:02:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1729523473</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>b639118c890072107f444c0145508be2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199403005ae0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>x_snc_ec2_monito_0_ec2_instance</table>
+<target_name>x_snc_ec2_monito_0_ec2_instance</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>fd14518009007210fa6a8b49e74539d3</update_guid>
+<update_guid_history>fd14518009007210fa6a8b49e74539d3:1729523473,3c500800f6043210df8f952ffd935277:1729523473</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_38500800890432107f444c0145508b7c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_snc_ec2_monito_0_ec2_instance</description><local_or_existing>Local</local_or_existing><name>x_snc_ec2_monito_0_ec2_instance</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:02:34</sys_created_on><sys_id>38500800890432107f444c0145508b7c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ec2_monito_0_ec2_instance</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_security_acl_38500800890432107f444c0145508b7c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:02:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-855928413</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>ba39118c890072107f444c0145508be1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199403005750000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>x_snc_ec2_monito_0_ec2_instance</table>
+<target_name>x_snc_ec2_monito_0_ec2_instance</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>f514518054007210cc67a47c6e9054cf</update_guid>
+<update_guid_history>f514518054007210cc67a47c6e9054cf:-855928413,fc50080039043210ae85c15c14c2177e:-855928413</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_a2208000890432107f444c0145508b82</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_extendable>false</is_extendable><label>EC2 Instance</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_ec2_monito_0_ec2_instance</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:02:33</sys_created_on><sys_id>a2208000890432107f444c0145508b82</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EC2 Instance</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_db_object_a2208000890432107f444c0145508b82</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:02:33</sys_updated_on><update_access>false</update_access><user_role display_value="x_snc_ec2_monito_0.ec2_instance_user" name="x_snc_ec2_monito_0.ec2_instance_user">e3ddff7789f322107f444c0145508b16</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>579496935</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>be39118c890072107f444c0145508be0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199401fecf10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>x_snc_ec2_monito_0_ec2_instance</table>
+<target_name>EC2 Instance</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>dc101d04aecc3210802d8dbd04497be1</update_guid>
+<update_guid_history>dc101d04aecc3210802d8dbd04497be1:579496935,9d5048009c043210a156924b02fe0f6b:579496935</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>incident_245b454c898c32107f444c0145508bfc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="incident"><incident action="INSERT_OR_UPDATE"><active>true</active><activity_due/><additional_assignee_list/><approval>not requested</approval><approval_history/><approval_set/><assigned_to/><assignment_group/><business_duration/><business_impact/><business_service/><business_stc/><calendar_duration/><calendar_stc/><caller_id display_value="Adela Cervantsz">0a826bf03710200044e0bfc8bcbe5d7a</caller_id><category>inquiry</category><cause/><caused_by/><child_incidents>0</child_incidents><close_code/><close_notes/><closed_at/><closed_by/><cmdb_ci/><comments/><comments_and_work_notes/><company display_value="ACME North America">31bea3d53790200044e0bfc8bcbe5dec</company><contact_type/><contract/><correlation_display/><correlation_id/><delivery_plan/><delivery_task/><description>Include instance ID, timestamp, and any other relevant fields from your EC2 table.</description><due_date/><escalation>0</escalation><expected_start/><follow_up/><group_list/><hold_reason/><impact>3</impact><incident_state>1</incident_state><knowledge>false</knowledge><location/><made_sla>true</made_sla><notify>1</notify><number>INC0010008</number><opened_at>2025-09-12 22:30:14</opened_at><opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by><order/><origin_id/><origin_table/><parent/><parent_incident/><priority>5</priority><problem_id/><reassignment_count>0</reassignment_count><rejection_goto/><reopen_count>0</reopen_count><reopened_by/><reopened_time/><resolved_at/><resolved_by/><rfc/><route_reason/><service_offering/><severity>3</severity><short_description>EC2 Instance Codon-176-10 is OFF</short_description><skills/><sla_due/><sn_esign_document/><sn_esign_esignature_configuration/><state>1</state><subcategory/><sys_class_name>incident</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 22:30:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>245b454c898c32107f444c0145508bfc</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 23:18:02</sys_updated_on><task_effective_number>INC0010008</task_effective_number><time_worked/><universal_request/><upon_approval>proceed</upon_approval><upon_reject>cancel</upon_reject><urgency>3</urgency><user_input/><variables/><watch_list/><wf_activity/><work_end/><work_notes/><work_notes_list/><work_start/></incident></record_update>]]></payload>
+<payload_hash>-1598322707</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>f239118c890072107f444c0145508bdf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1994038b62e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>INC0010008</target_name>
+<type>Incident</type>
+<update_domain>global</update_domain>
+<update_guid>f04651845b007210f5ffe7dd84850dc3</update_guid>
+<update_guid_history>f04651845b007210f5ffe7dd84850dc3:-1598322707</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_70500800890432107f444c0145508b17</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_snc_ec2_monito_0_ec2_instance</description><local_or_existing>Local</local_or_existing><name>x_snc_ec2_monito_0_ec2_instance</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:02:34</sys_created_on><sys_id>70500800890432107f444c0145508b17</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ec2_monito_0_ec2_instance</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_security_acl_70500800890432107f444c0145508b17</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:02:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1483667981</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>f239118c890072107f444c0145508be2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1994030059c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>x_snc_ec2_monito_0_ec2_instance</table>
+<target_name>x_snc_ec2_monito_0_ec2_instance</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>f5145180b0007210d0708c3ac528a7d2</update_guid>
+<update_guid_history>f5145180b0007210d0708c3ac528a7d2:1483667981,38500800ee04321001ac7559a48c0c19:1483667981</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>basic_auth_credentials_953884c0894432107f444c0145508b90</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="basic_auth_credentials"><basic_auth_credentials action="INSERT_OR_UPDATE"><active>true</active><application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application><applies_to>all</applies_to><authentication_key/><authentication_protocol/><classification>basic_auth</classification><context_name/><credential_id/><credential_storage_vault display_value="CyberArk">2bb9bebab7462010eca29a85de11a96d</credential_storage_vault><credential_store_type>other</credential_store_type><lookup_key>credential_id</lookup_key><mid_list/><name>AWS Integration Server Credentials</name><order>100</order><password>﷞﷟﷒6b248188894c32107f444c0145508b76﷬﷔1﷬﷭kfeBJHzUvbDfSJp7fjmfCg==9d8xLItD1KQj6PP5cGl_TysyWpH23ZHdiSGwbw==﷮﷯</password><privacy_key/><privacy_protocol/><ssh_certificate/><ssh_passphrase/><ssh_private_key/><sys_class_name>basic_auth_credentials</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:37:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>953884c0894432107f444c0145508b90</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 22:02:16</sys_updated_on><tag/><type>basic_auth</type><use_context>false</use_context><use_high_security>false</use_high_security><user_name>admin</user_name></basic_auth_credentials></record_update>]]></payload>
+<payload_hash>1851167386</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>f639118c890072107f444c0145508bde</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19940213ad50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>AWS Integration Server Credentials</target_name>
+<type>Basic Auth Credentials</type>
+<update_domain>global</update_domain>
+<update_guid>81601108fccc3210d91113bdcf363d9e</update_guid>
+<update_guid_history>81601108fccc3210d91113bdcf363d9e:1851167386</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_0afc808c894432107f444c0145508b04</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>EC2RemediationHelper</name><operation display_value="execute">execute</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:57:48</sys_created_on><sys_id>0afc808c894432107f444c0145508b04</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EC2RemediationHelper</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_security_acl_0afc808c894432107f444c0145508b04</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:57:48</sys_updated_on><type display_value="client_callable_script_include">client_callable_script_include</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-461886247</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>f639118c890072107f444c0145508be1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199402e7a940000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>EC2RemediationHelper</table>
+<target_name>EC2RemediationHelper</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>01b3918cebcc32101aebecbc2902a6b5</update_guid>
+<update_guid_history>01b3918cebcc32101aebecbc2902a6b5:-461886247,82fc808c1d44321095446c987a339107:-461886247</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_79d1c480890432107f444c0145508b2f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_extendable>false</is_extendable><label>Remediation Log</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_ec2_monito_0_remediation_log</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:09:43</sys_created_on><sys_id>79d1c480890432107f444c0145508b2f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Remediation Log</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_db_object_79d1c480890432107f444c0145508b2f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:09:43</sys_updated_on><update_access>false</update_access><user_role display_value="x_snc_ec2_monito_0.remediation_log_user" name="x_snc_ec2_monito_0.remediation_log_user">af1ef7bb89f322107f444c0145508ba5</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1352938516</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>fa39118c890072107f444c0145508be0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199401f4d1d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>x_snc_ec2_monito_0_remediation_log</table>
+<target_name>Remediation Log</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>1eef45c0e2cc3210f93cbd477c3d2070</update_guid>
+<update_guid_history>1eef45c0e2cc3210f93cbd477c3d2070:-1352938516,31f18804ac043210a2d10543a866d3c2:-1352938516</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>syslog_6b18cd44898c32107f444c0145508b57</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="syslog"><syslog action="INSERT_OR_UPDATE"><context_map>{"_system_id":"kura-labs-jul-4728-0003.internal.cloudapp.net:labinstance001_443","_logged_in_user":"admin","_script_record":"dcfee7fd81032ad07f445b4606b637b8","record_sys_id":"40756733893322107f444c0145508b07","_scope":"global","table_name":"sys_trigger","_txid":"62188544898c","_session_id":"glide.scheduler.worker.7","caller":"com.glide.schedule_v2.SchedulerWorkerThread","job_name":"Flow Engine Event Handler","_user":"admin","_is_impersonating":"false","_script_table":"sys_hub_action_type_definition"}</context_map><level>0</level><message>AI Search SUCCESS: Found 1 items using app: Service Portal Default Search Application</message><sequence>19940001f1e0000001</sequence><source>*** Script</source><source_application_family display_value="">_app_family</source_application_family><source_package display_value="Global" source="global">global</source_package><sys_class_name>syslog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 22:16:13</sys_created_on><sys_id>6b18cd44898c32107f444c0145508b57</sys_id></syslog></record_update>]]></payload>
+<payload_hash>45140068</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>fe39118c890072107f444c0145508bdf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199403312090000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table/>
+<target_name>6b18cd44898c32107f444c0145508b57</target_name>
+<type>Log Entry</type>
+<update_domain>global</update_domain>
+<update_guid>e6d45dc09f007210bbda85e12a7f6223</update_guid>
+<update_guid_history>e6d45dc09f007210bbda85e12a7f6223:45140068</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_a5f14804890432107f444c0145508bf6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_snc_ec2_monito_0_remediation_log</description><local_or_existing>Local</local_or_existing><name>x_snc_ec2_monito_0_remediation_log</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:09:43</sys_created_on><sys_id>a5f14804890432107f444c0145508bf6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ec2_monito_0_remediation_log</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_security_acl_a5f14804890432107f444c0145508bf6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:09:43</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1275248501</payload_hash>
+<remote_update_set display_value="EC2 Revised Update Set">f239118c890072107f444c0145508bde</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-09-12 23:31:00</sys_created_on>
+<sys_id>fe39118c890072107f444c0145508be2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199403005520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-09-12 23:31:00</sys_updated_on>
+<table>x_snc_ec2_monito_0_remediation_log</table>
+<target_name>x_snc_ec2_monito_0_remediation_log</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>fd145180650072109231d724d6f25dcd</update_guid>
+<update_guid_history>fd145180650072109231d724d6f25dcd:-1275248501,6df14804ee043210c594d742adfbf6f8:-1275248501</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
