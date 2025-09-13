@@ -1,4 +1,4 @@
-# 🚨 EC2 Monitoring & Remediation Workflow – ServiceNow × AWS Integration
+# 🚨 EC2 Monitoring & Remediation Workflow: ServiceNow × AWS Integration
 
 ---
 
@@ -12,7 +12,7 @@
 
 ## 🏢 **System Overview**
 
-**Netflix**—streaming to over 260 million subscribers globally—relies on AWS EC2 instances to power its recommendation engine, content delivery network, and streaming infrastructure.  
+**Netflix**—streaming to over 260 million subscribers globallyrelies on AWS EC2 instances to power its recommendation engine, content delivery network, and streaming infrastructure.  
 A recent EC2 failure exposed workflow gaps:
 
 > **Incident Details:**  
@@ -38,7 +38,7 @@ Build a semi-automated incident response system that:
 
 ## 👩‍💻 **Edana's Role**
 
-As a **ServiceNow Administrator and Jr Developer** on Netflix’s IT Infrastructure team, you were tasked with architecting a scalable, integrated solution that closes the gap between AWS monitoring and ServiceNow incident management.
+As a **ServiceNow Administrator and Jr Developer** on Netflix’s IT Infrastructure team, she was tasked with architecting a scalable, integrated solution that closes the gap between AWS monitoring and ServiceNow incident management.
 
 ---
 
@@ -105,12 +105,11 @@ Visual representation of the complete system flow (created in Draw.io):
 
 ## 📸 **Screenshot Placeholders**
 
-|   |   | 
-|---|---|
-| ![EC2 Instance table setup](#) | ![Remediation Log table](#) |
-| ![EC2 form with remediation button](#) | ![Flow Designer workflow](#) |
-| ![Slack message with KB article](#) | ![AI Search execution logs](#) |
-| ![Populated Remediation Log](#) |   |
+Succesful Knowledge Article Fetch- <img width="1725" height="911" alt="Knowledge article fetch" src="https://github.com/user-attachments/assets/4e7ad778-bc27-4498-96e9-b32ef232fca0" />
+Knowledge Article creation- <img width="987" height="939" alt="Knowledge Article creation" src="https://github.com/user-attachments/assets/e6ef244a-59ba-4cad-a4c3-7f20e2456865" />
+Workflow- <img width="987" height="939" alt="Knowledge Article creation" src="https://github.com/user-attachments/assets/06d04b80-5797-4946-8b22-0f2dbed33cdd" />
+Succesful Slack Message- <img width="1363" height="290" alt="image" src="https://github.com/user-attachments/assets/07666495-7bd9-495f-b7f9-d385dcd97f63" />
+
 
 ---
 
@@ -121,6 +120,8 @@ Below are key areas identified for future refinement:
 
 ### 📝 **Incident Record Description Enhancement**
 The current **“Create Incident”** action in Flow Designer generates a generic incident record when an EC2 instance fails. However, the default description lacks context, which can slow down triage and resolution.
+<img width="1897" height="923" alt="image" src="https://github.com/user-attachments/assets/92b80b27-0169-4155-b6ad-b83888ea0b26" />
+
 
 > **Optimization Opportunity:**  
 > - **Dynamic Descriptions:** Include instance name, ID, failure timestamp, and remediation instructions directly in the incident description.  
