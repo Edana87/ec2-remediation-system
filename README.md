@@ -98,8 +98,9 @@ As a **ServiceNow Administrator and Jr Developer** on Netflix’s IT Infrastruct
 ## 🗺️ **Architecture Diagram**
 
 Visual representation of the complete system flow (created in Draw.io):
+<img width="4324" height="2804" alt="image" src="https://github.com/user-attachments/assets/e2a5748c-9463-4a9a-9949-2d9e893435e3" />
 
-![Insert Diagram.png here]
+
 
 ---
 
