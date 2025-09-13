@@ -12,7 +12,7 @@
 
 ## 🏢 **System Overview**
 
-**Netflix**—streaming to over 260 million subscribers globallyrelies on AWS EC2 instances to power its recommendation engine, content delivery network, and streaming infrastructure.  
+**Netflix**—streaming to over 260 million subscribers globally relies on AWS EC2 instances to power its recommendation engine, content delivery network, and streaming infrastructure.  
 A recent EC2 failure exposed workflow gaps:
 
 > **Incident Details:**  
