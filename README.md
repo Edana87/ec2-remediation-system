@@ -1,4 +1,6 @@
 🚨 EC2 Monitoring & Remediation Workflow – ServiceNow x AWS Integration
+
+
 🛠️ Technologies Used
 - ServiceNow Personal Developer Instance (PDI) – Yokohama Release
 - AWS Integration Server (Netflix internal)
